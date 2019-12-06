@@ -10,16 +10,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "cell",
-            "aliases": ["Cell", "cell"],
-            "extensions": [".cell"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "cell",
-            "scopeName": "",
-            "path": "./syntaxes/cell.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "cell",
+                "aliases": [
+                    "Cell",
+                    "cell"
+                ],
+                "extensions": [
+                    ".cell"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "cell",
+                "scopeName": "source.cell",
+                "path": "./syntaxes/Cell.tmLanguage"
+            }
+        ]
     }
 }
