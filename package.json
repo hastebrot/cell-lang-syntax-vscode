@@ -1,0 +1,25 @@
+{
+    "name": "cell-lang-syntax-vscode",
+    "displayName": "cell-lang-syntax-vscode",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "cell",
+            "aliases": ["Cell", "cell"],
+            "extensions": [".cell"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "cell",
+            "scopeName": "",
+            "path": "./syntaxes/cell.tmLanguage.json"
+        }]
+    }
+}
